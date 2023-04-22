@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column; 
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+  background-color: #282833;
+}
+
+.App .header {
+  flex: 0 1 auto;
+}
+
+.App .content {
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+}
